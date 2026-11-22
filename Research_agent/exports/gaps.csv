@@ -1,0 +1,2 @@
+gap_id,description,confidence_level,gap_type,verification_status,supporting_papers,evidence,existing_approaches,limitations_of_approaches,why_gap_matters
+GAP-01,Cross-sensor spectral alignment,Medium,Methodological,Supported by Literature,OpenAlex HSI Paper,Severe drop on unseen bands,Retraining,Expensive,Real-world deployment

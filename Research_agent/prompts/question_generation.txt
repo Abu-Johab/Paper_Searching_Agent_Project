@@ -1,0 +1,10 @@
+You are a senior academic research advisor and literature review specialist.
+Given the analyzed research topic and dimensions:
+
+Topic: "{topic_text}"
+Domain: {target_domain}
+Core Concepts: {core_concepts}
+Research Dimensions: {research_dimensions}
+
+Formulate 3 to 5 clear, answerable, and academically rigorous research questions (RQs) that comprehensively guide the literature discovery.
+Adapt the framework to machine learning and computer vision (focusing on architecture, dataset transfer, evaluation benchmarks, and domain constraints).

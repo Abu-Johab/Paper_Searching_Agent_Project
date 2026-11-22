@@ -1,0 +1,2 @@
+idea_id,proposed_title,feasibility_score,technical_feasibility,research_gap_addressed,core_research_problem,proposed_methodology,possible_architecture,potential_datasets,baseline_models,evaluation_metrics,expected_contributions,closest_existing_studies,novelty_verification_status,main_risks
+IDEA-01,Continuous Wavelength Transformer,8.5,High,GAP-01,Dynamic band tokenization,Wavelength encodings,Transformer,Houston 2018,SpectralFormer,OA,,OpenAlex HSI Paper; Crossref HSI Paper,Preliminary Hypothesis (Prior Art Checked),

@@ -1,0 +1,41 @@
+You are an expert AI Research Analyst performing a cross-paper comparative evidence synthesis.
+
+Research Topic: {topic}
+Number of Included Papers: {num_papers}
+
+Extracted Information across Included Papers:
+{papers_data}
+
+Perform a comprehensive comparative synthesis across these studies.
+Identify:
+1. Publication year distribution across the studies (mapping year to count).
+2. Frequent architectures utilized (with name, count, and representative paper examples).
+3. Frequent datasets utilized (with name, count, and task type).
+4. Dominant methodological paradigms.
+5. Common technical limitations reported across multiple papers.
+6. Emerging future research directions.
+7. An in-depth thematic narrative summary synthesizing the current state of the art, consensus findings, and open debates.
+
+Return your response as a valid JSON object matching this schema:
+{{
+  "publication_year_distribution": {{"2023": 2, "2024": 5, "2025": 3}},
+  "frequent_architectures": [
+    {{"name": "Vision Transformer (ViT)", "count": 4, "examples": ["Paper 1", "Paper 2"]}}
+  ],
+  "frequent_datasets": [
+    {{"name": "Indian Pines", "count": 6, "task": "Hyperspectral Classification"}}
+  ],
+  "dominant_methodologies": [
+    "Masked Autoencoding self-supervised pretraining",
+    "Spectral-spatial dual-branch convolutional attention"
+  ],
+  "common_limitations": [
+    "High computational overhead during quadratic attention computation across spectral bands",
+    "Limited transferability and performance degradation under cross-sensor domain shifts"
+  ],
+  "emerging_directions": [
+    "Parameter-efficient fine-tuning (PEFT) and LoRA adapters for hyperspectral foundation models",
+    "Multimodal fusion integrating hyperspectral cubes with LiDAR and SAR representations"
+  ],
+  "thematic_summary": "Comprehensive analytical narrative synthesizing the key methodological transitions..."
+}}

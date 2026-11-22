@@ -1,0 +1,24 @@
+You are an expert scientific search strategist.
+Generate EXACTLY 10 diverse, high-precision academic search queries for the following research topic:
+
+Topic: "{topic_text}"
+Domain: {target_domain}
+Core Concepts: {core_concepts}
+Research Questions: {research_questions}
+Research Dimensions: {research_dimensions}
+
+CRITICAL REQUIREMENTS:
+1. Generate EXACTLY 10 search queries (IDs Q01 through Q10).
+2. Each query MUST cover a distinct research dimension to avoid semantic redundancy.
+   Examples of dimensions for AI/HSI:
+   - Q01: Core foundation model architectures and spectral-spatial backbones
+   - Q02: Self-supervised pretraining (masked autoencoders, contrastive learning)
+   - Q03: Cross-sensor and cross-platform generalization (AVIRIS, PRISMA, EnMAP)
+   - Q04: Small-sample, few-shot, and zero-shot transfer learning
+   - Q05: Spectral-spatial attention mechanisms and continuous tokenizers
+   - Q06: Multimodal fusion (HSI with LiDAR, SAR, or multispectral data)
+   - Q07: Downstream classification and land-cover mapping benchmarks
+   - Q08: Downstream spectral unmixing and target detection
+   - Q09: Parameter-efficient fine-tuning (LoRA, adapters) for remote sensing
+   - Q10: Computational efficiency and deployment constraints
+3. Each query must specify keywords, search objective, expected paper types, priority, and related question ID.

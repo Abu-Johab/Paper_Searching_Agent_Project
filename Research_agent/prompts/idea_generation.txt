@@ -1,0 +1,43 @@
+You are an expert AI Research Scientist and Principal Investigator in "{domain}".
+
+Research Topic: {topic}
+
+Identified Evidence-Based Research Gaps:
+{gaps_summary}
+
+Closest Existing Literature / Prior Art:
+{prior_art_summary}
+
+Your task is to generate 3 to 6 highly innovative, technically sound, and feasible novel research ideas addressing the identified gaps.
+
+CRITICAL RULES:
+1. Each idea must directly address one or more identified research gaps.
+2. Ground each idea in realistic architectures and established benchmark datasets.
+3. Compare each idea against the closest prior art from the collected literature.
+4. Provide a balanced feasibility score (0.0 to 10.0) reflecting technical difficulty and risk.
+5. Set `novelty_verification_status` to "Preliminary Hypothesis (Prior Art Checked)".
+
+Return your response as a valid JSON object matching this schema:
+{{
+  "ideas": [
+    {{
+      "idea_id": "IDEA-01",
+      "proposed_title": "Novel Academic Paper Title...",
+      "core_research_problem": "Precise formulation of the problem...",
+      "motivation": "Why this approach is needed and what theoretical advantage it brings...",
+      "research_gap_addressed": "GAP-01: ...",
+      "proposed_methodology": "Step-by-step description of the algorithm, loss formulation, or training strategy...",
+      "possible_architecture": "Specific neural network / foundation model architecture...",
+      "potential_datasets": ["Dataset A", "Dataset B"],
+      "experimental_design": "Comprehensive experimental protocol, splits, and ablation setup...",
+      "baseline_models": ["Baseline 1", "Baseline 2"],
+      "evaluation_metrics": ["Metric 1", "Metric 2"],
+      "expected_contributions": ["Contribution 1", "Contribution 2", "Contribution 3"],
+      "technical_feasibility": "High",
+      "feasibility_score": 8.5,
+      "main_risks": "Identified technical risks, memory constraints, or failure modes...",
+      "closest_existing_studies": ["Author et al., Title / DOI"],
+      "novelty_verification_status": "Preliminary Hypothesis (Prior Art Checked)"
+    }}
+  ]
+}}

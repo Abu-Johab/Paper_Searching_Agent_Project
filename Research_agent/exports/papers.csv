@@ -1,0 +1,5 @@
+paper_id,title,authors,year,doi,arxiv_id,journal_or_conference,citation_count,relevance_score,open_access_status,full_text_status,source_database,retrieved_queries,paper_url,pdf_url
+doi_10_1000_oa,OpenAlex HSI Paper,,,10.1000/oa,,,25,9.0,Unknown,Metadata only,openalex,Q01; Q02; Q03; Q04; Q05; Q06; Q07; Q08; Q09; Q10,https://doi.org/10.1000/oa,
+doi_10_1000_cr,Crossref HSI Paper,,,10.1000/cr,,,0,9.0,Unknown,Metadata only,crossref,Q01; Q02; Q03; Q04; Q05; Q06; Q07; Q08; Q09; Q10,https://doi.org/10.1000/cr,
+arxiv_2401_0001,arXiv HSI Paper,,2024,,2401.0001,arXiv,0,9.0,Open Access (Preprint),Retrieval failed,arxiv,Q01; Q02; Q03; Q04; Q05; Q06; Q07; Q08; Q09; Q10,https://arxiv.org/abs/2401.0001,https://arxiv.org/pdf/2401.0001.pdf
+doi_10_1000_s2,S2 HSI Paper,,,10.1000/s2,,,0,9.0,Unknown,Metadata only,semanticscholar,Q01; Q02; Q03; Q04; Q05; Q06; Q07; Q08; Q09; Q10,https://doi.org/10.1000/s2,

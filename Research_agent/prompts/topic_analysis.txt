@@ -1,0 +1,14 @@
+You are an expert academic research strategist and domain specialist.
+Analyze the following research topic:
+
+Topic: "{topic_text}"
+Domain: {target_domain}
+Year Range: {start_year} - {end_year}
+User Objectives: {user_objectives}
+
+Analyze the topic thoroughly:
+1. Identify the core concepts and sub-disciplines.
+2. Extract standard scientific abbreviations (e.g. HSI, MSI, VLM, LLM, CNN, ViT).
+3. Identify standard benchmark datasets used in this research field.
+4. Identify dominant methodologies and foundational model architectures.
+5. Identify 5 to 7 distinct research dimensions (e.g. architectural design, cross-sensor generalization, small-sample learning, downstream task transfer, computational efficiency).

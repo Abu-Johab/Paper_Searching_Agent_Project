@@ -1,0 +1,11 @@
+query_id,query_text,research_dimension,search_objective,keywords,priority,validation_score,validation_status,validation_reason
+Q01,hyperspectral foundation model query 1,Architectures,Objective 1,hyperspectral; foundation model,1,95.0,Validated,Well framed query.
+Q02,hyperspectral foundation model query 2,Architectures,Objective 2,hyperspectral; foundation model,1,95.0,Validated,Well framed query.
+Q03,hyperspectral foundation model query 3,Architectures,Objective 3,hyperspectral; foundation model,1,95.0,Validated,Well framed query.
+Q04,hyperspectral foundation model query 4,Architectures,Objective 4,hyperspectral; foundation model,1,95.0,Validated,Well framed query.
+Q05,hyperspectral foundation model query 5,Architectures,Objective 5,hyperspectral; foundation model,1,95.0,Validated,Well framed query.
+Q06,hyperspectral foundation model query 6,Architectures,Objective 6,hyperspectral; foundation model,1,95.0,Validated,Well framed query.
+Q07,hyperspectral foundation model query 7,Architectures,Objective 7,hyperspectral; foundation model,1,95.0,Validated,Well framed query.
+Q08,hyperspectral foundation model query 8,Architectures,Objective 8,hyperspectral; foundation model,1,95.0,Validated,Well framed query.
+Q09,hyperspectral foundation model query 9,Architectures,Objective 9,hyperspectral; foundation model,1,95.0,Validated,Well framed query.
+Q10,hyperspectral foundation model query 10,Architectures,Objective 10,hyperspectral; foundation model,1,95.0,Validated,Well framed query.

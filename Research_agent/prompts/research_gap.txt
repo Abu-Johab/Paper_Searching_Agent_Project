@@ -1,0 +1,31 @@
+You are an expert AI Research Scientist and Systematic Reviewer analyzing academic literature in the domain of "{domain}".
+
+Research Topic: {topic}
+
+Below is the structured extraction and analysis of the retrieved academic literature:
+{papers_summary}
+
+Your task is to identify 3 to 6 evidence-based research gaps from this literature.
+CRITICAL RULES:
+1. Every gap must be strictly grounded in the extracted papers' limitations, conflicting findings, or explicitly unaddressed challenges.
+2. List the titles or DOIs of the supporting papers in `supporting_papers`.
+3. If an idea is an unverified hypothesis not directly evidenced in the papers, set confidence_level="Hypothesis" and verification_status="Preliminary Hypothesis".
+4. Do NOT hallucinate papers or cite literature outside the provided list.
+
+Return your response as a valid JSON object matching this schema:
+{{
+  "gaps": [
+    {{
+      "gap_id": "GAP-01",
+      "description": "Comprehensive description of the research gap...",
+      "supporting_papers": ["Title or DOI of Paper A", "Title or DOI of Paper B"],
+      "evidence": "Direct evidence, reported limitations, or performance ceilings observed across the supporting papers...",
+      "existing_approaches": "Current methods and architectures used by existing studies...",
+      "limitations_of_approaches": "Specific technical shortcomings, computational bottlenecks, or domain limitations of existing approaches...",
+      "why_gap_matters": "Theoretical, algorithmic, or practical significance of resolving this gap...",
+      "confidence_level": "High",
+      "gap_type": "Methodological",
+      "verification_status": "Supported by Literature"
+    }}
+  ]
+}}
